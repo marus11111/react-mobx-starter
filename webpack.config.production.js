@@ -54,7 +54,7 @@ module.exports = {
         }
       }),
           new CopyWebpackPlugin([{
-        from: 'src/htaccess/' 
+        from: 'src/.htaccess' 
       }])
       ]
     
